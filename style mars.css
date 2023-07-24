@@ -1,0 +1,110 @@
+
+    @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+
+
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(58, 51, 51);
+}
+hr {
+  background-color: white;
+  width: 37%;
+  height: 0.1%;
+  z-index: -1;
+  margin-top: -60px;
+  margin-left: 51%; 
+}
+.navbarblur {
+ 
+  margin-bottom: 2px;
+  margin-left: 50%;
+  width: 980px;          
+  height: 9px;
+  color: white;
+  backdrop-filter: blur(8px);
+  display: inline-block;
+  list-style: none;
+  padding: 49px 20px;
+  
+}
+.Hrline {
+  background-color: white;
+  width: 600px;
+  margin-top: -30px;
+  z-index: 1;
+ 
+}
+.destination{
+  margin-top: 15%;
+  margin-left:29%;
+  font-family: "bellefair";
+
+}
+.navbar {
+  margin-right: 48%;
+  margin-top: 12%;
+  height: 50%;
+  float: right;
+  color: black;
+  background-color:none;
+  text-align: center;
+  padding: var(--underline-gap, 1rem) 0;
+  border: 0;
+  border-bottom: .2rem solid hsl( var(--clr-white) / 0 );
+}
+
+body {
+  background-image: url("./background-destination-desktop.jpg");
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  
+}
+.MARS{
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+.explanation {
+  font-size: 10px;
+  margin-left: 20%;
+  position: absolute;
+  margin-top: 20%;
+  width: 80%;
+  font-family: "Barlow Condensed Regular";
+}
+
+.space {
+  font-size: 100px;
+  
+}
+.avg{
+    margin-right: 55%;
+    margin-bottom:15% ;
+    font-size: 12px;
+    float: left;
+    font-family: "Barlow Condensed Regular";
+}
+
+.Est{
+    margin-right: 45%;
+    float: left;
+    font-size: 12px;
+    font-family: "Barlow Condensed Regular";
+}
+.km{
+    font-size: 23px;
+    margin-right: 10%;
+    margin-top:  8% ;
+    font-family: "Barlow Condensed Regular";
+}
+
+.months{
+    font-size: 23px;
+    margin-top: 8%;
+    font-family: "Barlow Condensed Regular";
+}
+ 

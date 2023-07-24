@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+
+
+a {
+  color:#D0D6F9;
+}
+a:hover {
+  color: rgb(58, 51, 51);
+}
+hr {
+  background-color: white;
+  width: 600px;
+  height: 0.1%;
+  z-index: -1;
+  margin-top: -30px;
+  margin-left: 51%; 
+}
+.navbarblur {
+ 
+  margin-top: 35px;
+  margin-left: 50%;
+  width: 980px;          
+  height: 9px;
+  color:#D0D6F9;
+  backdrop-filter: blur(8px);
+  display: inline-block;
+  list-style: none;
+  padding: 49px 20px;
+ 
+
+}
+.number{
+    color:grey ;
+}
+
+.destination{
+  margin-top: 15%;
+  margin-left:29%;
+  font-family: "barlow-regyzz";
+    color: #D0D6F9;
+}
+.navbar {
+  margin-right: 48%;
+  margin-top: 100px;
+  height: 100%;
+  color:#D0D6F9;
+  float: right;
+  text-align: center;
+}
+
+body {
+  background-image: url("./background-crew-desktop.jpg");
+  background-size: cover;
+  color:#D0D6F9;
+  background-repeat: no-repeat;
+  
+}
+.Anousheh{
+    margin-top:5px;
+    margin-left:800px;
+    color:#D0D6F9;
+}
+
+.explanation {
+  font-size: 10px;
+  margin-left: 12%;
+  position: absolute;
+  margin-top: 15%;
+  width: 80%;
+  color:#D0D6F9;
+  font-family: "Barlow Condensed Regular";
+}
+
+.space{
+    font-size: 50px;
+}
+
+.flight{
+    margin-top:10%;
+    margin-left: 0%;
+    font-size: 35px;
+    color:#D0D6F9;
+}
+.sr-only {
+    position: absolute; 
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px; 
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+    gap: 3rem;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+  .dot-indicators > * {
+    cursor: pointer;
+    border: 0;
+    border-radius: 60%;
+    /* aspect-ratio: 1; */
+    padding: .5em;
+}
+
+ 
+  
