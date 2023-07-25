@@ -26,7 +26,7 @@ hr {
   margin-left: 50%;
   width: 980px;          
   height: 9px;
-  color: white;
+  color: #D0D6Fe;
   backdrop-filter: blur(8px);
   display: inline-block;
   list-style: none;
@@ -36,7 +36,7 @@ hr {
 body {
   background-image: url("./background-home-desktop.jpg");
   background-size: cover;
-  color: white;
+  color:#D0D6Fe;
   background-repeat: no-repeat;
 }
 
@@ -45,6 +45,7 @@ body {
   margin-left: 25%;
   position: absolute;
   margin-top: 25%;
+  color: #D0D6Fe;
 }
 
 .btn {
@@ -63,4 +64,5 @@ body {
 .space {
   font-size: 150px;
   font-family: Bellefair;
+  color: white;
 }

@@ -3,7 +3,7 @@
 
 
 a {
-  color:#D0D6F9;
+  color:white;
 }
 a:hover {
   color: rgb(58, 51, 51);
@@ -22,7 +22,7 @@ hr {
   margin-left: 50%;
   width: 980px;          
   height: 9px;
-  color:#D0D6F9;
+  color:white;
   backdrop-filter: blur(8px);
   display: inline-block;
   list-style: none;
@@ -38,13 +38,13 @@ hr {
   margin-top: 15%;
   margin-left:29%;
   font-family: "barlow-regyzz";
-    color: #D0D6F9;
+  color: #D0D6F9;
 }
 .navbar {
   margin-right: 48%;
   margin-top: 100px;
   height: 100%;
-  color:#D0D6F9;
+  color:white;
   float: right;
   text-align: center;
 }
@@ -58,7 +58,7 @@ body {
 }
 .Anousheh{
     margin-top:5px;
-    margin-left:800px;
+    margin-left:200px;
     color:#D0D6F9;
 }
 
@@ -74,6 +74,7 @@ body {
 
 .space{
     font-size: 50px;
+    color: white;
 }
 
 .flight{
@@ -84,24 +85,67 @@ body {
 }
 .sr-only {
     position: absolute; 
-    width: 1px;
-    height: 1px;
+    width: 5px;
+    height: 5px;
     padding: 0;
-    margin: -1px; 
+    margin-top: 20px; 
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    white-space: nowrap; /* added line */
+    white-space: nowrap , pre-line ;
     border: 0;
-    gap: 3rem;
-    margin-top: 10%;
-    margin-right: 10%;
+   
   }
   .dot-indicators > * {
     cursor: pointer;
-    border: 0;
-    border-radius: 60%;
     /* aspect-ratio: 1; */
-    padding: .5em;
+    gap:10%;
+    border: 10px;
+    border-radius: 50%;
+    margin-top:110%;
+    margin-right:8%;
+    padding: .5rem;
+}
+.btn{
+  position: absolute; 
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  margin-top: 20px; 
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap , pre-line ;
+  border: 0;
+}
+.danger{
+  position:absolute; 
+  width: 5px;
+  height: 5px;
+  padding: 0%;
+  margin-top: 20px; 
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap , pre-line ;
+  border: 0;
+}
+.insert{
+  position: absolute; 
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  margin-top: 20px; 
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap , pre-line ;
+  border: 0;
+}
+  
+.dot-indicators > *:hover,
+.dot-indicators > *:focus {
+    background-color: hsl( var(--clr-black) / 1);
+}
+
+.dot-indicators > [aria-selected=""] {
+    background-color: hsl( var(--clr-white) / .5); 
 }
 
  

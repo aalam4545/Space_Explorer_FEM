@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+
+
+a {
+  color:white;
+}
+a:hover {
+  color: rgb(58, 51, 51);
+}
+hr {
+  background-color: white;
+  width: 600px;
+  height: 0.1%;
+  z-index: -1;
+  margin-top: -30px;
+  margin-left: 51%; 
+}
+.navbarblur {
+ 
+  margin-top: 35px;
+  margin-left: 50%;
+  width: 980px;          
+  height: 9px;
+  color:white;
+  backdrop-filter: blur(8px);
+  display: inline-block;
+  list-style: none;
+  padding: 49px 20px;
+ 
+
+}
+.number{
+    color:grey ;
+}
+
+.destination{
+  margin-top: 15%;
+  margin-left:29%;
+  font-family: "barlow-regyzz";
+  color: #D0D6F9;
+}
+.navbar {
+  margin-right: 48%;
+  margin-top: 100px;
+  height: 100%;
+  color:white;
+  float: right;
+  text-align: center;
+}
+
+body {
+  background-image: url("./background-technology-desktop.jpg");
+  background-size: cover;
+  color:#D0D6F9;
+  background-repeat: no-repeat;
+  
+}
+.Anousheh{
+    margin-top:3%;
+    margin-left:122%;
+    color:#D0D6F9;
+}
+
+.explanation {
+  font-size: 10px;
+  margin-left: 22%;
+  position: absolute;
+  margin-top: 15%;
+  width: 80%;
+  color:#D0D6F9;
+  font-family: "Barlow Condensed Regular";
+  
+}
+
+.space{
+    font-size: 50px;
+    color: white;
+    margin-left: 20%;
+}
+
+.flight{
+    margin-top:10%;
+    margin-left:20%;
+    font-size: 19px;
+    color:#D0D6F9;
+}
+.carrier{
+    margin-left:20% ;
+}
+.dot-indicators{
+
+    padding: 22px 25px;
+    border-radius: 55%;
+    margin-left: 100%;
+    margin-top: 15%;
+    font-size: 30px;
+    padding: .25rem;
+    color:black;
+    transition: 500ms ease-in-out;
+    opacity: 500ms;
+   
+  }
+  /* .dot-indicators  {
+    cursor: pointer;
+    /* aspect-ratio: 1; 
+    gap:10%;
+    border: 10px;
+    border-radius: 50%;
+    margin-top:110%;
+    margin-right:8%;
+    padding: .5rem;
+} */

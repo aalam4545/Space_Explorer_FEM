@@ -17,13 +17,16 @@ hr {
   margin-top: -60px;
   margin-left: 51%; 
 }
+.number{
+  color: grey;
+}
 .navbarblur {
  
   margin-bottom: 2px;
   margin-left: 50%;
   width: 980px;          
   height: 9px;
-  color: white;
+  color: #D0D6F9;
   backdrop-filter: blur(8px);
   display: inline-block;
   list-style: none;
@@ -59,7 +62,7 @@ hr {
 body {
   background-image: url("./background-destination-desktop.jpg");
   background-size: cover;
-  color: white;
+  color: #D0D6F9;
   background-repeat: no-repeat;
   
 }
@@ -79,7 +82,7 @@ body {
 
 .space {
   font-size: 100px;
-  
+  color: white;
 }
 .avg{
     margin-right: 55%;
