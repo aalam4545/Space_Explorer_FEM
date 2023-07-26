@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 
-
-
 a {
-  color:white;
+  color: white;
 }
 a:hover {
   color: rgb(58, 51, 51);
@@ -14,37 +12,34 @@ hr {
   height: 0.1%;
   z-index: -1;
   margin-top: -30px;
-  margin-left: 51%; 
+  margin-left: 51%;
 }
 .navbarblur {
- 
   margin-top: 35px;
   margin-left: 50%;
-  width: 980px;          
+  width: 980px;
   height: 9px;
-  color:white;
+  color: white;
   backdrop-filter: blur(8px);
   display: inline-block;
   list-style: none;
   padding: 49px 20px;
- 
-
 }
-.number{
-    color:grey ;
+.number {
+  color: grey;
 }
 
-.destination{
+.destination {
   margin-top: 15%;
-  margin-left:29%;
+  margin-left: 29%;
   font-family: "barlow-regyzz";
-  color: #D0D6F9;
+  color: #d0d6f9;
 }
 .navbar {
   margin-right: 48%;
   margin-top: 100px;
   height: 100%;
-  color:white;
+  color: white;
   float: right;
   text-align: center;
 }
@@ -52,14 +47,13 @@ hr {
 body {
   background-image: url("./background-crew-desktop.jpg");
   background-size: cover;
-  color:#D0D6F9;
+  color: #d0d6f9;
   background-repeat: no-repeat;
-  
 }
-.Anousheh{
-    margin-top:5px;
-    margin-left:200px;
-    color:#D0D6F9;
+.Anousheh {
+  margin-top: 5px;
+  margin-left: 200px;
+  color: #d0d6f9;
 }
 
 .explanation {
@@ -68,85 +62,81 @@ body {
   position: absolute;
   margin-top: 15%;
   width: 80%;
-  color:#D0D6F9;
+  color: #d0d6f9;
   font-family: "Barlow Condensed Regular";
 }
 
-.space{
-    font-size: 50px;
-    color: white;
+.space {
+  font-size: 50px;
+  color: white;
 }
 
-.flight{
-    margin-top:10%;
-    margin-left: 0%;
-    font-size: 35px;
-    color:#D0D6F9;
+.flight {
+  margin-top: 10%;
+  margin-left: 0%;
+  font-size: 35px;
+  color: #d0d6f9;
 }
 .sr-only {
-    position: absolute; 
-    width: 5px;
-    height: 5px;
-    padding: 0;
-    margin-top: 20px; 
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap , pre-line ;
-    border: 0;
-   
-  }
-  .dot-indicators > * {
-    cursor: pointer;
-    /* aspect-ratio: 1; */
-    gap:10%;
-    border: 10px;
-    border-radius: 50%;
-    margin-top:110%;
-    margin-right:8%;
-    padding: .5rem;
-}
-.btn{
-  position: absolute; 
+  position: absolute;
   width: 5px;
   height: 5px;
   padding: 0;
-  margin-top: 20px; 
+  margin-top: 20px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap , pre-line ;
+  white-space: nowrap, pre-line;
   border: 0;
 }
-.danger{
-  position:absolute; 
+.dot-indicators > * {
+  cursor: pointer;
+  /* aspect-ratio: 1; */
+  gap: 10%;
+  border: 10px;
+  border-radius: 50%;
+  margin-top: 110%;
+  margin-right: 8%;
+  padding: 0.5rem;
+}
+.btn {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  margin-top: 20px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap, pre-line;
+  border: 0;
+}
+.danger {
+  position: absolute;
   width: 5px;
   height: 5px;
   padding: 0%;
-  margin-top: 20px; 
+  margin-top: 20px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap , pre-line ;
+  white-space: nowrap, pre-line;
   border: 0;
 }
-.insert{
-  position: absolute; 
+.insert {
+  position: absolute;
   width: 5px;
   height: 5px;
   padding: 0;
-  margin-top: 20px; 
+  margin-top: 20px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap , pre-line ;
+  white-space: nowrap, pre-line;
   border: 0;
 }
-  
+
 .dot-indicators > *:hover,
 .dot-indicators > *:focus {
-    background-color: hsl( var(--clr-black) / 1);
+  background-color: hsl(var(--clr-black) / 1);
 }
 
 .dot-indicators > [aria-selected=""] {
-    background-color: hsl( var(--clr-white) / .5); 
+  background-color: hsl(var(--clr-white) / 0.5);
 }
-
- 
-  

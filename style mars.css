@@ -1,7 +1,4 @@
-
-    @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
-
-
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 
 a {
   color: white;
@@ -15,36 +12,32 @@ hr {
   height: 0.1%;
   z-index: -1;
   margin-top: -60px;
-  margin-left: 51%; 
+  margin-left: 51%;
 }
-.number{
+.number {
   color: grey;
 }
 .navbarblur {
- 
   margin-bottom: 2px;
   margin-left: 50%;
-  width: 980px;          
+  width: 980px;
   height: 9px;
-  color: #D0D6F9;
+  color: #d0d6f9;
   backdrop-filter: blur(8px);
   display: inline-block;
   list-style: none;
   padding: 49px 20px;
-  
 }
 .Hrline {
   background-color: white;
   width: 600px;
   margin-top: -30px;
   z-index: 1;
- 
 }
-.destination{
+.destination {
   margin-top: 15%;
-  margin-left:29%;
+  margin-left: 29%;
   font-family: "bellefair";
-
 }
 .navbar {
   margin-right: 48%;
@@ -52,23 +45,22 @@ hr {
   height: 50%;
   float: right;
   color: black;
-  background-color:none;
+  background-color: none;
   text-align: center;
   padding: var(--underline-gap, 1rem) 0;
   border: 0;
-  border-bottom: .2rem solid hsl( var(--clr-white) / 0 );
+  border-bottom: 0.2rem solid hsl(var(--clr-white) / 0);
 }
 
 body {
   background-image: url("./background-destination-desktop.jpg");
   background-size: cover;
-  color: #D0D6F9;
+  color: #d0d6f9;
   background-repeat: no-repeat;
-  
 }
-.MARS{
-    margin-top: 8%;
-    margin-left: 20%;
+.MARS {
+  margin-top: 8%;
+  margin-left: 20%;
 }
 
 .explanation {
@@ -84,30 +76,29 @@ body {
   font-size: 100px;
   color: white;
 }
-.avg{
-    margin-right: 55%;
-    margin-bottom:15% ;
-    font-size: 12px;
-    float: left;
-    font-family: "Barlow Condensed Regular";
+.avg {
+  margin-right: 55%;
+  margin-bottom: 15%;
+  font-size: 12px;
+  float: left;
+  font-family: "Barlow Condensed Regular";
 }
 
-.Est{
-    margin-right: 45%;
-    float: left;
-    font-size: 12px;
-    font-family: "Barlow Condensed Regular";
+.Est {
+  margin-right: 45%;
+  float: left;
+  font-size: 12px;
+  font-family: "Barlow Condensed Regular";
 }
-.km{
-    font-size: 23px;
-    margin-right: 10%;
-    margin-top:  8% ;
-    font-family: "Barlow Condensed Regular";
+.km {
+  font-size: 23px;
+  margin-right: 10%;
+  margin-top: 8%;
+  font-family: "Barlow Condensed Regular";
 }
 
-.months{
-    font-size: 23px;
-    margin-top: 8%;
-    font-family: "Barlow Condensed Regular";
+.months {
+  font-size: 23px;
+  margin-top: 8%;
+  font-family: "Barlow Condensed Regular";
 }
- 

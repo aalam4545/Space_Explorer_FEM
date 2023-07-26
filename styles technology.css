@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 
-
-
 a {
-  color:white;
+  color: white;
 }
 a:hover {
   color: rgb(58, 51, 51);
@@ -14,37 +12,35 @@ hr {
   height: 0.1%;
   z-index: -1;
   margin-top: -30px;
-  margin-left: 51%; 
+  margin-left: 51%;
 }
 .navbarblur {
- 
   margin-top: 35px;
   margin-left: 50%;
-  width: 980px;          
+  width: 980px;
   height: 9px;
-  color:white;
+  color: white;
   backdrop-filter: blur(8px);
   display: inline-block;
   list-style: none;
   padding: 49px 20px;
- 
-
 }
-.number{
-    color:grey ;
+.number {
+  color: grey;
 }
 
-.destination{
+.destination {
   margin-top: 15%;
-  margin-left:29%;
+  margin-left: 29%;
+  width: 100%;
   font-family: "barlow-regyzz";
-  color: #D0D6F9;
+  color: white;
 }
 .navbar {
   margin-right: 48%;
   margin-top: 100px;
   height: 100%;
-  color:white;
+  color: white;
   float: right;
   text-align: center;
 }
@@ -52,62 +48,82 @@ hr {
 body {
   background-image: url("./background-technology-desktop.jpg");
   background-size: cover;
-  color:#D0D6F9;
+  color: #d0d6f9;
   background-repeat: no-repeat;
-  
 }
-.Anousheh{
-    margin-top:3%;
-    margin-left:122%;
-    color:#D0D6F9;
+.Anousheh {
+  color: #d0d6f9;
+  background-size: contain;
 }
 
 .explanation {
   font-size: 10px;
-  margin-left: 22%;
+  margin-left: 0%;
   position: absolute;
-  margin-top: 15%;
+  margin-top: 25%;
   width: 80%;
-  color:#D0D6F9;
+  color: #d0d6f9;
   font-family: "Barlow Condensed Regular";
-  
+}
+.space {
+  font-size: 52px;
+  color: white;
 }
 
-.space{
-    font-size: 50px;
-    color: white;
-    margin-left: 20%;
+.flight {
+  font-size: 19px;
+  color: #d0d6f9;
+}
+.carrier {
+  font-size: 20px;
+}
+/* .hello-world{ */
+
+/* padding: 50px 12px; */
+/* border-radius: 55%; */
+/* margin-right:100%; */
+/* margin-bottom: 20%; */
+/* font-size: 30px; */
+/* color:black; */
+/* transition: 500ms ease; */
+/* opacity: 500ms; */
+
+/* } */
+
+.cap {
+  margin: 35%;
 }
 
-.flight{
-    margin-top:10%;
-    margin-left:20%;
-    font-size: 19px;
-    color:#D0D6F9;
+.btn {
+  cursor: pointer;
+  opacity: 1000ms;
+  /* border: 0px; */
+  /* border-radius: 50%; */
+  margin-top: 0%;
+  margin-left: 30%;
+  margin-bottom: 0%;
+  padding: 20px 32px;
+  transition: 500ms ease-in-out;
+  color: white;
+  border-color: white;
+  font-size: 30px;
+  background: none;
 }
-.carrier{
-    margin-left:20% ;
+.btn {
+  opacity: 1000ms;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 20px 32px;
+  color: white;
+  border: 2px solid white;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-bottom: 15%;
 }
-.dot-indicators{
-
-    padding: 22px 25px;
-    border-radius: 55%;
-    margin-left: 100%;
-    margin-top: 15%;
-    font-size: 30px;
-    padding: .25rem;
-    color:black;
-    transition: 500ms ease-in-out;
-    opacity: 500ms;
-   
-  }
-  /* .dot-indicators  {
-    cursor: pointer;
-    /* aspect-ratio: 1; 
-    gap:10%;
-    border: 10px;
-    border-radius: 50%;
-    margin-top:110%;
-    margin-right:8%;
-    padding: .5rem;
-} */
+.btn:hover {
+  opacity: 1000ms;
+  font-size: 30px;
+  padding: 20px 32px;
+  color: black;
+  border-color: white;
+}
