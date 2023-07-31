@@ -15,7 +15,7 @@ hr {
   margin-left: 51%;
 }
 .number {
-  color: grey;
+  color:grey;
 }
 .navbarblur {
   margin-bottom: 2px;
@@ -38,6 +38,7 @@ hr {
   margin-top: 15%;
   margin-left: 29%;
   font-family: "bellefair";
+  color: #d0d6f9;
 }
 .navbar {
   margin-right: 53%;
@@ -93,8 +94,9 @@ body {
 .km {
   font-size: 23px;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: -13%;
   font-family: "Barlow Condensed Regular";
+  float: left;
 }
 
 .months {
