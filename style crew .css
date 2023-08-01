@@ -4,9 +4,9 @@
   font-family:"Barlow Condensed", sans-serif;
 }
 
-a {
+ .hello {
   color: white;
-}
+ }
 a:hover {
   color: rgb(58, 51, 51);
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .space {
-  font-size: 50px;
+  font-size: 49px;
   color: white;
 }
 
