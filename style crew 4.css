@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 * {
@@ -9,7 +10,11 @@ a {
   color: white;
 }
 a:hover {
-  color: rgb(58, 51, 51);
+  /* line-height: 110px; */
+  border-bottom: 1px solid white;
+  padding-bottom: 10%;
+  color: #d0d6f9;
+  text-decoration: none;
 }
 hr {
   background-color: white;
@@ -37,8 +42,9 @@ hr {
 .destination {
   margin-top: 15%;
   margin-left: 29%;
-  font-family: "barlow-regyzz";
+  font-family:"Barlow Condensed", sans-serif;
   color: #d0d6f9;
+  font-size: 30px;
 }
 .navbar {
   margin-right: 48%;
@@ -57,16 +63,16 @@ body {
 }
 .Anousheh {
   margin-top: -50px;
-  margin-left: 200px;
+  margin-left: 800px;
   color: #d0d6f9;
 }
 
 .explanation {
-  font-size: 10px;
-  margin-left: 12%;
+  font-size: 7px;
+  margin-left: 28%;
   position: absolute;
-  margin-top: 15%;
-  width: 80%;
+  margin-top: 10%;
+  max-width: 62%;
   color: #d0d6f9;
   font-family: "Barlow Condensed Regular";
 }
@@ -74,74 +80,42 @@ body {
 .space {
   font-size: 41px;
   color: white;
+  font-family: "Barlow Condensed Regular";
 }
 
 .flight {
-  margin-top: 10%;
+  margin-top: 1%;
   margin-left: 0%;
   font-size: 25px;
   color: #d0d6f9;
+  font-family: "Barlow Condensed Regular";
 }
-.sr-only {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  padding: 0;
-  margin-top: 20px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap, pre-line;
-  border: 0;
-}
-.dot-indicators > * {
-  cursor: pointer;
-  /* aspect-ratio: 1; */
-  gap: 10%;
-  border: 10px;
-  border-radius: 50%;
-  margin-top: 130%;
-  margin-right: 8%;
-  padding: 0.5rem;
-}
-.btn {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  padding: 0;
-  margin-top: 20px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap, pre-line;
-  border: 0;
-}
-.danger {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  padding: 0%;
-  margin-top: 20px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap, pre-line;
-  border: 0;
-}
-.insert {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  padding: 0;
-  margin-top: 20px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap, pre-line;
-  border: 0;
+.dot-indicators{
+  margin-top: -65%;
+  margin-left: -65px;
+  display: flex;
+  padding: 20px 15px ;
 }
 
-.dot-indicators > *:hover,
-.dot-indicators > *:focus {
+ .dot-indicators > * {
+  cursor: pointer;
+  gap: 10%;
+  border: 10px;
+  padding: 0.5rem;
+}
+ 
+
+.circlebtn{
+  border-radius: 50%;
+  padding: 8px;
+  
+}
+
+.circlebtn > *:hover,
+.circlebtn > *:focus {
   background-color: hsl(var(--clr-black) / 1);
 }
 
-.dot-indicators > [aria-selected=""] {
+.circlebtn > [aria-selected=""] {
   background-color: hsl(var(--clr-white) / 0.5);
-}
+} 
