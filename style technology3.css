@@ -8,6 +8,13 @@
 a {
   color: white;
 }
+
+
+.svg{
+  margin-top: 20%;
+  position:absolute;
+  margin-left: 13%; 
+}
 a:hover {
   /* line-height: 110px; */
   border-bottom: 1px solid white;

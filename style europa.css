@@ -63,6 +63,11 @@ hr {
   border-bottom: 0.2rem solid hsl(var(--clr-white) / 0);
 }
 
+.svg{
+  margin-top: 30px;
+  position:absolute;
+  margin-left: 13%; 
+}
 body {
   background-image: url("./background-destination-desktop.jpg");
   background-size: cover;

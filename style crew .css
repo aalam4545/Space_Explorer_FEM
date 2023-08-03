@@ -15,7 +15,11 @@
   color: #d0d6f9;
   text-decoration: none;
 }
-
+.svg{
+  margin-top: 30px;
+  position:absolute;
+  margin-left: 13%; 
+}
 hr {
   background-color: white;
   width: 600px;

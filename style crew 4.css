@@ -24,6 +24,11 @@ hr {
   margin-top: -30px;
   margin-left: 51%;
 }
+.svg{
+  margin-top: 30px;
+  position:absolute;
+  margin-left: 13%; 
+}
 .navbarblur {
   margin-top: 35px;
   margin-left: 50%;
