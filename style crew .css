@@ -3,6 +3,7 @@
 
 * {
   font-family:"Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
  .hello {
@@ -22,22 +23,22 @@
 }
 hr {
   background-color: white;
-  width: 600px;
+  width: 570px;
   /* height: 0.1%; */
   z-index: -1;
-  margin-top: -30px;
+  margin-top: -40px;
   margin-left: 51%;
 }
-.navbarblur {
+.nokia {
   margin-top: 35px;
   margin-left: 50%;
-  width: 980px;
+  width: 400px;
   /* height: 10px; */
   color: white;
   backdrop-filter: blur(8px);
   display: inline-block;
-  list-style: none;
-  padding: 40px 20px;
+  text-align: center;
+  padding: 30px 15px;
 }
 .number {
   color: grey;
@@ -71,7 +72,7 @@ body {
 }
 .Anousheh {
   margin-bottom: -75px;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 120px;
   color: #d0d6f9;
 }
@@ -80,14 +81,15 @@ body {
   font-size: 8px;
   margin-left: 25%;
   position: absolute;
-  margin-top: 10%;
-  max-width: 70%;
+  margin-top: 5%;
+  margin-bottom: 10px;
+  max-width: 58%;
   color: #d0d6f9;
   font-family: "Barlow Condensed Regular";
 }
 
 .space {
-  font-size: 49px;
+  font-size: 45px;
   color: white;
   font-family: "Barlow Condensed Regular";
 }

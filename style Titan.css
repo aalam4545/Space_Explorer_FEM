@@ -3,6 +3,7 @@
 
 * {
   font-family:"Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
 a {
@@ -33,7 +34,7 @@ hr {
 .number {
   color:grey;
 }
-.navbarblur {
+.nokia {
   margin-bottom: 2px;
   margin-left: 50%;
   width: 980px;
@@ -43,6 +44,7 @@ hr {
   display: inline-block;
   list-style: none;
   padding: 49px 20px;
+  font-size: 15px;
 }
 .Hrline {
   background-color: white;

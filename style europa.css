@@ -3,6 +3,7 @@
 
 * {
   font-family:"Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
 a {
@@ -26,11 +27,12 @@ hr {
 .number {
   color:grey;
 }
-.navbarblur {
+.nokia {
   margin-bottom: 2px;
   margin-left: 50%;
   width: 980px;
   height: 9px;
+  font-size: 15px;
   color: #d0d6f9;
   backdrop-filter: blur(8px);
   display: inline-block;
@@ -52,7 +54,7 @@ hr {
 .navbar {
   margin-right: 53%;
   margin-top: 12%;
-  height: 50%;
+  height: 60%;
   float: right;
   font-size: 20px;
   color: black;

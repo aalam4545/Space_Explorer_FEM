@@ -3,6 +3,7 @@
 
 * {
   font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
 a {
@@ -40,7 +41,7 @@ hr {
   display: inline-block;
   list-style: none;
   padding: 49px 20px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: "Barlow Condensed", sans-serif;
 }
 .number {

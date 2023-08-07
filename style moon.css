@@ -3,6 +3,7 @@
 
 * {
   font-family:"Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
 a {
@@ -85,7 +86,7 @@ body {
   font-size: 5px;
   margin-left: 20%;
   position: absolute;
-  margin-top: 20%;
+  margin-top: 15%;
   width: 80%;
   font-family: "Barlow Condensed Regular";
 }
@@ -102,7 +103,7 @@ body {
 }
 .avg {
   margin-right: 55%;
-  margin-top: -20%;
+  margin-top: -18%;
   font-size: 15px;
   float: left;
   font-family: "Barlow Condensed", sans-serif;
@@ -110,7 +111,7 @@ body {
 
 .Est {
   margin-right: 45%;
-  margin-top: -20%;
+  margin-top: -18%;
   float: left;
   font-size: 15px;
   font-family: "Barlow Condensed", sans-serif;
